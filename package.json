@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "desc",
   "engines": {
-      "node": ">=8.9.4"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js",
@@ -40,7 +40,7 @@
     "ignore": [
       "apidoc"
     ]
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clementB91/endosul.git"

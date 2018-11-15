@@ -10,7 +10,7 @@ define({ "api": [
       }
     ],
     "version": "0.0.0",
-    "filename": "/home/djengo/Documents/dev/koa/koa-smart-boilerplate/node_modules/koa-smart/dist/ApiDocTmp/example/-id.js",
+    "filename": "C:/Users/PC/Desktop/travail/Epitech projects/recent/fullstackjs/endosul-server/node_modules/koa-smart/dist/ApiDocTmp/example/-id.js",
     "groupTitle": "Example",
     "name": "GetExampleId"
   },
@@ -45,7 +45,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "/home/djengo/Documents/dev/koa/koa-smart-boilerplate/node_modules/koa-smart/dist/ApiDocTmp/example.js",
+    "filename": "C:/Users/PC/Desktop/travail/Epitech projects/recent/fullstackjs/endosul-server/node_modules/koa-smart/dist/ApiDocTmp/example.js",
     "groupTitle": "Example",
     "name": "PostExample"
   },
@@ -60,7 +60,7 @@ define({ "api": [
       }
     ],
     "version": "0.0.0",
-    "filename": "/home/djengo/Documents/dev/koa/koa-smart-boilerplate/node_modules/koa-smart/dist/ApiDocTmp/Index.js",
+    "filename": "C:/Users/PC/Desktop/travail/Epitech projects/recent/fullstackjs/endosul-server/node_modules/koa-smart/dist/ApiDocTmp/Index.js",
     "groupTitle": "Index",
     "name": "Get"
   }
