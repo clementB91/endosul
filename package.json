@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clementB91/endosul.git"
+    "url": "git+https://github.com/clementB91/endosul-server.git"
   },
   "keywords": [
     "node",
@@ -53,7 +53,7 @@
   "author": "iLLo_B2OK1",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/clementB91/endosul/issues"
+    "url": "https://github.com/clementB91/endosul-server/issues"
   },
-  "homepage": "https://github.com/clementB91/endosul#readme"
+  "homepage": "https://github.com/clementB91/endosul-server#readme"
 }
