@@ -6,9 +6,6 @@
     "node": ">=8.9.4"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js",
-    "start": "npm run dev",
-    "prod": "node dist/index.js",
     "_rm-build-prod": "rimraf dist",
     "_build-prod": "babel src --out-dir dist --copy-files",
     "build-prod": "npm run _rm-build-prod && npm run _build-prod",
@@ -19,7 +16,7 @@
     "express": "^4.16.4",
     "koa-smart": "^2.0.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2"   
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -29,7 +26,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.2.0",
     "eslint": "^5.5.0",
     "expect": "^23.5.0",
     "mocha": "^5.2.0",
