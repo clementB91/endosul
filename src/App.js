@@ -24,7 +24,7 @@ RateLimit.defaultOptions({
 export default class App extends AppBase {
   constructor() {
     super({
-      port: 3000,
+      port: process.env.PORT || 3000,
       // routeParam is an object and it will be give as parametter to all routes
       // so for example you can give models to all your route so you can access on route
       routeParam: {},
