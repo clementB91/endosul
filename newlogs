@@ -1,0 +1,101 @@
+2018-11-15T22:08:00.148820+00:00 app[web.1]: ^
+2018-11-15T22:08:00.148822+00:00 app[web.1]: 
+2018-11-15T22:08:00.148824+00:00 app[web.1]: Error: Cannot find module '/app/index.js'
+2018-11-15T22:08:00.148826+00:00 app[web.1]: at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+2018-11-15T22:08:00.148828+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+2018-11-15T22:08:00.148830+00:00 app[web.1]: at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+2018-11-15T22:08:00.148832+00:00 app[web.1]: at startup (internal/bootstrap/node.js:300:19)
+2018-11-15T22:08:00.148834+00:00 app[web.1]: at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+2018-11-15T22:08:00.228051+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-15T22:08:00.212952+00:00 heroku[web.1]: Process exited with status 1
+2018-11-15T22:08:13.055617+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=endosul-server.herokuapp.com request_id=ef0f73a6-b7ca-4f44-8263-a773c3bbecfc fwd="92.154.77.208" dyno= connect= service= status=503 bytes= protocol=http
+2018-11-15T22:08:13.572955+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=endosul-server.herokuapp.com request_id=0b951245-95b9-4155-b8f4-1c4a92e907f1 fwd="92.154.77.208" dyno= connect= service= status=503 bytes= protocol=http
+2018-11-15T22:08:13.607090+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=endosul-server.herokuapp.com request_id=38f9b896-d3e2-4949-ac66-e1a4c93b9043 fwd="92.154.77.208" dyno= connect= service= status=503 bytes= protocol=http
+2018-11-15T22:13:52.000000+00:00 app[api]: Build started by user olivier.laffon.dev@gmail.com
+2018-11-15T22:14:24.812982+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-15T22:14:24.547751+00:00 app[api]: Release v7 created by user olivier.laffon.dev@gmail.com
+2018-11-15T22:14:24.547751+00:00 app[api]: Deploy cd7dc921 by user olivier.laffon.dev@gmail.com
+2018-11-15T22:14:28.160743+00:00 heroku[web.1]: Starting process with command `node ./src/index.js`
+2018-11-15T22:14:27.000000+00:00 app[api]: Build succeeded
+2018-11-15T22:14:30.841463+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-15T22:14:30.824561+00:00 heroku[web.1]: Process exited with status 1
+2018-11-15T22:14:30.763846+00:00 app[web.1]: /app/src/index.js:1
+2018-11-15T22:14:30.763876+00:00 app[web.1]: (function (exports, require, module, __filename, __dirname) { import App from './App';
+2018-11-15T22:14:30.763884+00:00 app[web.1]: ^^^
+2018-11-15T22:14:30.763890+00:00 app[web.1]: 
+2018-11-15T22:14:30.763895+00:00 app[web.1]: SyntaxError: Unexpected identifier
+2018-11-15T22:14:30.763897+00:00 app[web.1]: at new Script (vm.js:83:7)
+2018-11-15T22:14:30.763898+00:00 app[web.1]: at createScript (vm.js:267:10)
+2018-11-15T22:14:30.763900+00:00 app[web.1]: at Object.runInThisContext (vm.js:319:10)
+2018-11-15T22:14:30.763905+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:685:28)
+2018-11-15T22:14:30.763907+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+2018-11-15T22:14:30.763908+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:620:32)
+2018-11-15T22:14:30.763910+00:00 app[web.1]: at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+2018-11-15T22:14:30.763911+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2018-11-15T22:14:30.763913+00:00 app[web.1]: at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+2018-11-15T22:14:30.763914+00:00 app[web.1]: at startup (internal/bootstrap/node.js:300:19)
+2018-11-15T22:15:27.304798+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=endosul-server.herokuapp.com request_id=1b406980-0df0-4c9b-abb3-595741dd584a fwd="92.154.77.196" dyno= connect= service= status=503 bytes= protocol=http
+2018-11-15T22:20:48.723262+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-15T22:20:53.545833+00:00 heroku[web.1]: Starting process with command `node ./src/index.js`
+2018-11-15T22:20:56.294122+00:00 heroku[web.1]: Process exited with status 1
+2018-11-15T22:20:56.322016+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-15T22:20:56.207801+00:00 app[web.1]: /app/src/index.js:1
+2018-11-15T22:20:56.207822+00:00 app[web.1]: (function (exports, require, module, __filename, __dirname) { import App from './App';
+2018-11-15T22:20:56.207824+00:00 app[web.1]: ^^^
+2018-11-15T22:20:56.207826+00:00 app[web.1]: 
+2018-11-15T22:20:56.207827+00:00 app[web.1]: SyntaxError: Unexpected identifier
+2018-11-15T22:20:56.207829+00:00 app[web.1]: at new Script (vm.js:83:7)
+2018-11-15T22:20:56.207830+00:00 app[web.1]: at createScript (vm.js:267:10)
+2018-11-15T22:20:56.207832+00:00 app[web.1]: at Object.runInThisContext (vm.js:319:10)
+2018-11-15T22:20:56.207833+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:685:28)
+2018-11-15T22:20:56.207835+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+2018-11-15T22:20:56.207837+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:620:32)
+2018-11-15T22:20:56.207838+00:00 app[web.1]: at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+2018-11-15T22:20:56.207840+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2018-11-15T22:20:56.207841+00:00 app[web.1]: at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+2018-11-15T22:20:56.207843+00:00 app[web.1]: at startup (internal/bootstrap/node.js:300:19)
+2018-11-15T22:43:14.000000+00:00 app[api]: Build started by user olivier.laffon.dev@gmail.com
+2018-11-15T22:43:48.721566+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-15T22:43:48.553674+00:00 app[api]: Deploy 0f9be749 by user olivier.laffon.dev@gmail.com
+2018-11-15T22:43:48.553674+00:00 app[api]: Release v8 created by user olivier.laffon.dev@gmail.com
+2018-11-15T22:43:51.000000+00:00 app[api]: Build succeeded
+2018-11-15T22:43:54.730285+00:00 heroku[web.1]: Starting process with command `node ./src/index.js`
+2018-11-15T22:43:57.237746+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-15T22:43:57.213552+00:00 heroku[web.1]: Process exited with status 1
+2018-11-15T22:43:57.239649+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-15T22:43:57.141938+00:00 app[web.1]: /app/src/index.js:1
+2018-11-15T22:43:57.141976+00:00 app[web.1]: (function (exports, require, module, __filename, __dirname) { import App from './App';
+2018-11-15T22:43:57.141983+00:00 app[web.1]: ^^^
+2018-11-15T22:43:57.141989+00:00 app[web.1]: 
+2018-11-15T22:43:57.142010+00:00 app[web.1]: SyntaxError: Unexpected identifier
+2018-11-15T22:43:57.142013+00:00 app[web.1]: at new Script (vm.js:83:7)
+2018-11-15T22:43:57.142015+00:00 app[web.1]: at createScript (vm.js:267:10)
+2018-11-15T22:43:57.142016+00:00 app[web.1]: at Object.runInThisContext (vm.js:319:10)
+2018-11-15T22:43:57.142024+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:685:28)
+2018-11-15T22:43:57.142026+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+2018-11-15T22:43:57.142027+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:620:32)
+2018-11-15T22:43:57.142029+00:00 app[web.1]: at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+2018-11-15T22:43:57.142030+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2018-11-15T22:43:57.142031+00:00 app[web.1]: at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+2018-11-15T22:43:57.142033+00:00 app[web.1]: at startup (internal/bootstrap/node.js:300:19)
+2018-11-15T22:44:00.438879+00:00 heroku[web.1]: Starting process with command `node ./src/index.js`
+2018-11-15T22:44:02.195042+00:00 app[web.1]: /app/src/index.js:1
+2018-11-15T22:44:02.195058+00:00 app[web.1]: (function (exports, require, module, __filename, __dirname) { import App from './App';
+2018-11-15T22:44:02.195060+00:00 app[web.1]: ^^^
+2018-11-15T22:44:02.195062+00:00 app[web.1]: 
+2018-11-15T22:44:02.195064+00:00 app[web.1]: SyntaxError: Unexpected identifier
+2018-11-15T22:44:02.195065+00:00 app[web.1]: at new Script (vm.js:83:7)
+2018-11-15T22:44:02.195067+00:00 app[web.1]: at createScript (vm.js:267:10)
+2018-11-15T22:44:02.195068+00:00 app[web.1]: at Object.runInThisContext (vm.js:319:10)
+2018-11-15T22:44:02.195070+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:685:28)
+2018-11-15T22:44:02.195072+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+2018-11-15T22:44:02.195073+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:620:32)
+2018-11-15T22:44:02.195075+00:00 app[web.1]: at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+2018-11-15T22:44:02.195076+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+2018-11-15T22:44:02.195078+00:00 app[web.1]: at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+2018-11-15T22:44:02.195079+00:00 app[web.1]: at startup (internal/bootstrap/node.js:300:19)
+2018-11-15T22:44:02.277484+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-15T22:44:02.252595+00:00 heroku[web.1]: Process exited with status 1
+2018-11-15T22:44:15.857845+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=endosul-server.herokuapp.com request_id=5617bad7-4069-4057-a89c-59056ffd520c fwd="92.154.77.209" dyno= connect= service= status=503 bytes= protocol=http
+2018-11-15T22:46:23.031176+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=endosul-server.herokuapp.com request_id=ba1d3db3-04f8-4515-abbf-2ba3a1b8a9c0 fwd="92.154.83.21" dyno= connect= service= status=503 bytes= protocol=http
+Terminer le programme de commandes (O/N)ÿ? 
