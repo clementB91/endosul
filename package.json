@@ -16,7 +16,6 @@
     "lint": "eslint src config test"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "koa-smart": "^2.0.2",
     "request": "^2.88.0",
