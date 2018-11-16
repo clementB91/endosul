@@ -15,6 +15,13 @@
     "test": "cross-env NODE_ENV=test mocha --opts mocha.opts",
     "lint": "eslint src config test"
   },
+  "dependencies": {
+    "express": "^4.16.4",
+    "koa-smart": "^2.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "cross-env": "^5.2.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
@@ -30,12 +37,6 @@
     "nodemon": "^1.18.4",
     "rimraf": "^2.6.2",
     "supertest": "^3.3.0"
-  },
-  "dependencies": {
-    "express": "^4.16.4",
-    "koa-smart": "^2.0.2",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"    
   },
   "nodemonConfig": {
     "ignore": [
