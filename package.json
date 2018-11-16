@@ -6,7 +6,7 @@
     "node": ">=8.9.4"
   },
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm start",
     "prod": "node dist/index.js",
     "_rm-build-prod": "rimraf dist",
     "build-prod": "npm run _rm-build-prod && npm run _build-prod",
